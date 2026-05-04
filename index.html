@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CV Digital - Melina</title>
+</head>
+
+<body>
+
+<header>
+    <h1>De Rogatis Melina</h1>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a> |
+    <a href="#sobre-mi">Sobre mí</a> |
+    <a href="#habilidades">Habilidades</a> |
+    <a href="#proyectos">Proyectos</a> |
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<hr>
+
+<main>
+
+<section id="inicio">
+    <h2>Presentación</h2>
+
+    <figure>
+        <img src="yoformal.png" 
+        alt="Foto de Melina" width="150">
+        <figcaption>Foto de perfil</figcaption>
+    </figure>
+
+    <p>Hola, soy De Rogatis Melina, tengo 19 años.</p>
+</section>
+
+<hr>
+
+<section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>
+        Me gusta mucho aprender, amo las matemáticas, la atención al cliente y la docencia.
+        Me gustaría estudiar algo relacionado con estas áreas.
+        Me interesa la informática y actualmente estoy cursando el 7mo año de secundaria en una escuela técnica.
+    </p>
+</section>
+
+<hr>
+
+<section id="habilidades">
+    <h2>Habilidades Técnicas</h2>
+
+    <table border="1">
+        <tr>
+            <th>Tecnología</th>
+            <th>Nivel</th>
+            <th>Experiencia</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Básico</td>
+            <td>1 año</td>
+        </tr>
+        <tr>
+            <td>Word</td>
+            <td>Avanzado</td>
+            <td>4 años</td>
+        </tr>
+        <tr>
+            <td>Atención al cliente</td>
+            <td>Intermedio/Básico</td>
+            <td>1 año</td>
+        </tr>
+    </table>
+</section>
+
+<hr>
+
+<section id="proyectos">
+    <h2>Mis Proyectos</h2>
+    <p>He realizado trabajos escolares relacionados con informática, incluyendo este CV digital.</p>
+
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/mU6anWqZJcc"
+    title="Video sobre desarrollo web"
+    allowfullscreen>
+    </iframe>
+</section>
+
+<hr>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label>Nombre:</label><br>
+            <input type="text" required placeholder="Tu nombre" aria-required="true"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" required placeholder="ejemplo@gmail.com" aria-required="true"><br><br>
+
+            <label>Teléfono:</label><br>
+            <input type="tel" placeholder="+54 9 ..." aria-label="Número de teléfono"><br><br>
+
+            <label>Fecha de contacto:</label><br>
+            <input type="date"><br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Consulta</legend>
+
+            <label>Motivo:</label><br>
+            <select>
+                <option>Consulta general</option>
+                <option>Trabajo</option>
+                <option>Otro</option>
+            </select><br><br>
+
+            <label>Nivel de urgencia:</label><br>
+            <input type="range" min="1" max="10" value="5"><br><br>
+
+            <label>Mensaje:</label><br>
+            <textarea rows="5" maxlength="500"></textarea><br><br>
+
+            <input type="checkbox" required aria-required="true"> Acepto los términos<br><br>
+
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</section>
+
+</main>
+
+<hr>
+
+<footer>
+    <p>© 2026 - De Rogatis Melina</p>
+</footer>
+
+</body>
+</html>
